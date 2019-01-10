@@ -5,8 +5,6 @@ createCanvas(1560,750)
 }
 var cooldown = 5000;
 var secret = 0;
-var color = 0;
-var c = 0;
 var c1 = 0;
 var c2 = 0;
 var c3 = 255;
@@ -16,7 +14,7 @@ var lives = 1;
 var Y = 0;
 var Y2 = 0;
 var counter = 0;
-var powerUps = [-1];
+var powerUps = [];
 var obstacles = [1560];
 var Score = 0;
 var difficulty = 10;
